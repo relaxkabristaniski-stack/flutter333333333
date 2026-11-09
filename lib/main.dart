@@ -466,7 +466,7 @@ class _DragScreenState extends State<DragScreen> {
                 child: Center(
                   child: ElevatedButton(
                     onPressed: () {
-                      openChild(context, 'Информация о перетаскивании');
+                      (context, 'Информация о перетаскивании');
                     },
                     child: const Text('Подробнее'),
                   ),
